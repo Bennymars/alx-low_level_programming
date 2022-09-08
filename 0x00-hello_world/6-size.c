@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - prints size of various types
+ * main - Entry point
  *
  * Return: Always 0
  */
