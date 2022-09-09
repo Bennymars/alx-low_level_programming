@@ -2,16 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - always assign a random number to variable n whenever executed
- * prints whether number is positive or negative
- * Return: Always 0
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() -RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
