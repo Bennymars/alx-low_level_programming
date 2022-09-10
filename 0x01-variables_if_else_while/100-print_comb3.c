@@ -12,7 +12,7 @@ int main(void)
 
 	for (i =10; i <= 19; i++)
 	{
-		for (q =10; <= 19; q++)
+		for (q =10; q <= 19; q++)
 		{
 			if ((q % 10) > (i % 10))
 			{
