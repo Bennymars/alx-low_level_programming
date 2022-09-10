@@ -17,9 +17,9 @@ int main(void)
 			{
 				if (p > q && q > i)
 				{
-					putchar(i + '0')
-					putchar(q + '0')
-					putchar(p + '0')
+					putchar(i + '0');
+					putchar(q + '0');
+					putchar(p + '0');
 					if (i != 7 || q != 8 || p != 9)
 					{
 						putchar(',');
