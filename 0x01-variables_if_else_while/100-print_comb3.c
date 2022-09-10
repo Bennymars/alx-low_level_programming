@@ -18,7 +18,7 @@ int main(void)
 			{
 				putchar((i % 10) + '0');
 				putcahr((q % 10) + '0');
-				if (i != 18 || j != 19)
+				if (i != 18 || q != 19)
 				{
 					putchar(',');
 					putchar(' ');
