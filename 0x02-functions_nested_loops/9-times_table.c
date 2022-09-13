@@ -9,35 +9,40 @@
 
 void times_table(void)
 {
-	int i, j, n;
+	int x = 0;
+	int y, z;
 
-	for (i = 0; i <= 9; i++)
+	while (x < 10)
 	{
-		for (j = 0; j <= 9; j++)
+		y = 0;
+		while (y < 10)
 		{
-			n = i * j;
+			z = x * y;
 
-			if ((n / 10) == 0)
+			if (z > 9)
 			{
-				if (j != 0)
-					_putchar(' ');
-				_putchar(n + '0');
-
-				if (j == 9)
-					continue;
-				_putchar(',');
+				_putchar(z / 10 + '0');
+				_putchar(z % 10 + '0');
+			}
+			else if (y != 0)
+			{
 				_putchar(' ');
+				_putchar(z + '0');
 			}
 			else
 			{
-				_putchar((n / 10) + '0');
-				_putchar((n % 10) + '0');
-				if (j == 9)
-					continue;
-					_putchar(',');
-					_putchar(' ');
+				_putchar(z + '0');
 			}
+
+			if (y != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			y++;
 		}
 		_putchar('\n');
+		x++;
 	}
 }
+
