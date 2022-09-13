@@ -3,8 +3,10 @@
 /**
  * _islower - checks for lowercase
  *
+ * @c: c is an ascii character
  * Return: void
  */
+
 int _islower(int c)
 {
 	int i = 'a';
