@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * Description: Prints alphabets in lower case
- * Return: Always 0
+ *
+ * Return: void
  */
 void print_alphabet(void)
 {
