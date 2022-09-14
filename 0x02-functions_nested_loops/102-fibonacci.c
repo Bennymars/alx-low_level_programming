@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the first 52 fibonacci numbers
- *
+ * Description: Starting with 1 and 2
  * Return: void
  */
 
@@ -21,5 +21,10 @@ int main(void)
 		{
 			k += j;
 			j = k - j;
-
-
+			printf(", %ld", k);
+		}
+		++i;
+	}
+	printf("\n");
+	return (0);
+}
