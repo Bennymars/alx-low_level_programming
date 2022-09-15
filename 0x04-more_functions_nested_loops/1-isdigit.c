@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - checks if parameter is a number between 0 to 9.
- * digit to be checked
+ * @c: digit to be checked
  * Return: 1 if c is a digit, otherwise 0
  */
 
