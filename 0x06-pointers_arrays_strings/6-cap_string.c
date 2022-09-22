@@ -7,17 +7,17 @@
 
 char *cap_string(char *s)
 {
-	int count = 0, j;
-	int sep_texts[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+	int count = 0, i;
+	int sep[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
 	if (*(s + count) >= 97 && *(s + count) <= 122)
 		*(s + count) = *(s + count) - 32
 	count++;
 	while (*(s + count) != '\0')
 	{
-		for (j = 0; j < 13; j++)
+		for (i = 0; i < 13; i++)
 		{
-			if (*(s + count) == sep_texts[j])
+			if (*(s + count) == sep[i])
 			{
 				if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
 					*(s + (count + 1)) = *(s + (count + 1)) - 32;
