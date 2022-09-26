@@ -1,1 +1,1 @@
-Learning even more concepts of pointers, arrays and strings
+Even more learning and understanding the concepts of pointers, arrays and strings
