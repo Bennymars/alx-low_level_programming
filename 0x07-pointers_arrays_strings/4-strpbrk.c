@@ -5,7 +5,7 @@
  * strpbrk - bytes
  * @s: pointer to char
  * @accept: pattern to match against
- * Return: pointer to the first match or NULL
+ * Return: NULL
  */
 
 char *_strpbrk(char *s, char *accept)
