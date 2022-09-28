@@ -16,13 +16,13 @@ int _sqrt_recursion(int n)
  * @square: test number
  * Return: sqrt
  */
-int _sqrt(int n, int sqr)
+int _sqrt(int n, int i)
 {
 	if (n < 0)
 		return (-1);
-	if ((sqr * sqr) > n)
+	if ((i * i) > n)
 		return (-1);
-	if (sqr * sqr == n)
-		return (sqr);
-	return (_sqrt(n, sqr + 1));
+	if (i * i == n)
+		return (i);
+	return (_sqrt(n, i + 1));
 }
