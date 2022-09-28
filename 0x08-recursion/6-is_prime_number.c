@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * divisors - number is prime
- * @n: integer paramtr 1
- * @m: integer paramtr 2
+ * divisors - number is prime?
+ * @n: integer paramtr
+ * @m: integer paramtr
  */
 int divisors(int n, int m)
 {
@@ -24,7 +24,7 @@ int divisors(int n, int m)
 /**
  * is_prime_number - checks if a given number is prime
  * @n: integer paramtr
- * Return: int
+ * Return: recursion
  */
 
 int is_prime_number(int n)
