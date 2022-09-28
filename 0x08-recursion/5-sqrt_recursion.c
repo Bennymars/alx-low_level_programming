@@ -13,7 +13,7 @@ int _sqrt_recursion(int n)
 /**
  * _sqrt - _sqrt_recursion
  * @n: given number
- * @square: test number
+ * @i: integer parameter
  * Return: sqrt
  */
 int _sqrt(int n, int i)
