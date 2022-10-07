@@ -9,10 +9,10 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *arr;
+	void *p;
 
-	arr = malloc(b);
-	if (arr == NULL)
+	p = malloc(b);
+	if (p == NULL)
 		exit(98);
-	return (arr);
+	return (p);
 }
