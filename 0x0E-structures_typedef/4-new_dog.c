@@ -18,11 +18,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (new_dog == NULL)
 		return (new_dog);
 	dog_name = malloc(sizeof(name));
-	if (dog_name == NULL)
-	{
-		free(new_dog);
-		return (NULL);
-	}
+		if (dog_name == NULL)
+		{
+			free(new_dog);
+			return (NULL);
+		}
 	dog_owner = malloc(sizeof(owner));
 	if (dog_owner == NULL)
 	{
@@ -37,6 +37,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog->age = age;
 	return (new_dog);
 }
+
 /**
  * *_strcpy - copies string to given memory location
  * @dest: where the string needs to be copied
