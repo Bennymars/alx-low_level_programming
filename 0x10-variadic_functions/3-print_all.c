@@ -4,7 +4,7 @@
  * print_all - prints anything.
  * @format: a list of types of arguments passed to the function.
  *
- * Return: no return.
+ * Return: no return
  */
 void print_all(const char * const format, ...)
 {
@@ -43,7 +43,8 @@ void print_all(const char * const format, ...)
 				printf("(nil)");
 				break;
 			}
-				break;
+			printf("%s", str);
+			break;
 		} i++;
 	}
 	printf("\n"), va_end(valist);
